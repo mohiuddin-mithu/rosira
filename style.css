@@ -1,0 +1,11 @@
+p{
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+}
+.hero-section{
+    display: flex;
+}
+.hero-section div{    
+    margin-right: 20px;
+}
