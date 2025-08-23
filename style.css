@@ -3,9 +3,12 @@ p{
     color: white;
     padding: 20px;
 }
-.hero-section{
+.image-section{
     display: flex;
 }
-.hero-section div{    
+.image-title{
+    text-align: center;
+}
+.image-section div{
     margin-right: 20px;
 }
