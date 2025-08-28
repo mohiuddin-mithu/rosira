@@ -1,14 +1,89 @@
-p{
-    background-color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*{
+    margin: 0;
+}
+/* banner section style start  */
+header{
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: none; */
+}
+.banner-content{
     color: white;
-    padding: 20px;
-}
-.image-section{
-    display: flex;
-}
-.image-title{
     text-align: center;
+    padding: 300px 0;
+    font-family: "Inter Tight", sans-serif;
+    background-color: #00000095;
 }
-.image-section div{
-    margin-right: 20px;
+.banner-content h3{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.banner-content h2{
+    font-size: 72px;
+    letter-spacing: 6px;
+}
+
+/* discount-section style start  */
+.discount-section{
+    text-align: center;
+    margin: 100px 0;
+    /* display: none; */
+}
+.discount-section h2{
+    color: #FF0000;
+    font-size: 88px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.discount-section p{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: "Inter Tight", sans-serif;
+}
+.discount-section h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0 40px 0;
+    font-family: "Inter Tight", sans-serif;
+}
+.discount-section img{
+    width: 400px;
+}
+
+/* welcome-section style start  */
+.welcome-section{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;    
+    
+}
+.welcome-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter Tight", sans-serif;
+    background-color: #000000aa;
+    padding: 130px 0;
+}
+.welcome-section h3{
+    font-size: 64px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+.welcome-section p{
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.welcome-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
