@@ -8,7 +8,6 @@ header{
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    display: none;
 }
 .banner-content{
     color: white;
@@ -30,7 +29,6 @@ header{
 .discount-section{
     text-align: center;
     margin: 100px 0;
-    display: none;
 }
 .discount-section h2{
     color: #FF0000;
@@ -61,7 +59,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;    
-    /* display: none; */
 }
 .welcome-content{
     display: flex;
