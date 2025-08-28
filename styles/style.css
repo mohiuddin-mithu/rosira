@@ -8,7 +8,7 @@ header{
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* display: none; */
+    display: none;
 }
 .banner-content{
     color: white;
@@ -30,7 +30,7 @@ header{
 .discount-section{
     text-align: center;
     margin: 100px 0;
-    /* display: none; */
+    display: none;
 }
 .discount-section h2{
     color: #FF0000;
@@ -61,7 +61,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;    
-    
+    /* display: none; */
 }
 .welcome-content{
     display: flex;
@@ -86,4 +86,86 @@ header{
     color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+/* place-section style start  */
+.place-section{
+    background-color: #FFEFEF;
+}
+.place-content{
+    padding: 130px 0;
+    text-align: center;
+    font-weight: 500;
+}
+.place-content h3{
+    font-size: 32px;
+    margin-bottom: 14px;    
+    font-family: "Inter Tight", sans-serif;
+}
+.place-content span{
+    color: #FF0000;
+}
+.place-content .place-btn{
+    padding: 14px 28px;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+/* coming soon section style start  */
+.coming-soon{
+    padding: 130px 200px;
+}
+.coming-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.coming-content .coming-left{
+    width: 32%;
+    font-family: "Inter Tight", sans-serif;
+}
+.coming-content .coming-left h4{
+    color: #FF0000;
+    font-size: 24px;
+}
+.coming-content .coming-left h2{
+    font-size: 48px;
+    color: black;
+    margin: 20px 0;
+}
+.coming-content .coming-left p{
+    color: #07021177;
+    font-size: 20px;
+    line-height: 30px;
+}
+.coming-content .coming-middle{
+    display: block;
+    width: 33%;
+    border: 16px solid #FF0000;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+.coming-content .coming-middle img{
+   padding-top: 17px;
+}
+.coming-content .coming-right{
+    width: 32%;
+}
+.coming-content .coming-right h2{
+    font-size: 48px;
+    color:#FF0000;
+    margin: 20px 0;
+}
+.coming-content .coming-right p{
+    color: #07021177;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
